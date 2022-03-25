@@ -3,15 +3,16 @@
 :root {
     --primary-color: #2b2d42;
     --secondary-color: #edf2f4;
+    --tertiary-color: #8d99ae;
 
 
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #8d99ae;
+    background-color: var(--tertiary-color);
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .header {
@@ -36,6 +37,9 @@ logo {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  
+
+
 }
 
 .header-nav li {
@@ -44,36 +48,52 @@ logo {
 
 .header-nav a {
     padding: 8px;
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .introduction {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     font-size: large;
 }
 
+.getStarted-btn {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--tertiary-color);
+}
 
 .footer {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 0 8px;
-    background: var(--primary-color);
+    padding: 10px;
+    /* background: var(--primary-color); */
     text-decoration: none;
-    color: white;
-    /* margin-top: auto; */
+    color: var(--secondary-color);
+    position: absolute;
+    bottom: 0;
+    
+    
 }
 
 
 .socials {
-    color: white;
+    color: var(--secondary-color);
+    
+
 }
 
 .footer li {
     display: inline-block; 
+    padding-left: 5px;
 }
 
 .socials {
-    margin-left: auto;
-     
+    margin-left: auto;  
+}
+
+.socials a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
