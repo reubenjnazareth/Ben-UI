@@ -10,6 +10,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #8d99ae;
+    display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -59,7 +61,7 @@ logo {
     background: var(--primary-color);
     text-decoration: none;
     color: white;
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 
