@@ -1,3 +1,45 @@
-header {
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    background: blueviolet;
     font-size: larger;
+}
+
+logo {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.header-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-nav li {
+    display: inline-block;
+}
+
+.header-nav a {
+    padding: 8px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: blueviolet;
+    align-content: center;
+    
+}
+
+
+.footer li {
+    display: inline-block;
+    
 }
