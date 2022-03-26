@@ -20,7 +20,7 @@ body {
     padding: 0 8px;
     background: var(--primary-color);
     font-size: larger;
-    color: white;
+    color: var(--secondary-color);
 }
 
 logo {
@@ -59,8 +59,6 @@ logo {
     background-color: var(--primary-color);
     border: none;
     color: var(--tertiary-color);
-    /* width: 150px;
-    height: 40px; */
     font-size: 16px;
     border-radius: 5px;
     padding: 10px 10px;
@@ -71,15 +69,7 @@ logo {
 
 .centerbtn {
     display: flex;
-    justify-content: center; 
-    /* background-color: var(--primary-color);
-    border: none;
-    color: var(--tertiary-color);
-    width: 150px;
-    height: 40px;
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 10px;  */
+    justify-content: center; S
 }
 
 .footer {
@@ -93,3 +83,7 @@ logo {
     bottom: 0; 
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
