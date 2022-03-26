@@ -25,9 +25,10 @@ body {
     
 }
 
-logo {
-    font-size: 20px;
+.logo {
+    font-size: 35px;
     font-weight: bold;
+    margin-left: 25px;
 }
 
 .header-nav {
@@ -107,3 +108,46 @@ logo {
 .nav-link {
     text-decoration: none;
 }
+
+
+.component-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--primary-color);
+    /* padding-left: 30px; */
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.component-intro {
+    color: var(--primary-color);
+    /* padding-left: 30px; */
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.sub-title {
+    color: var(--primary-color);
+    /* padding-left: 30px; */
+    margin-left: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.avatar-nav {
+    /* padding-left: 30px; */
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    margin-right: 15px;
+}
+
+iframe {
+    
+    margin-left: 30px;
+}
+
+
