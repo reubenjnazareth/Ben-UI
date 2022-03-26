@@ -9,8 +9,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--tertiary-color);
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .header {
@@ -21,6 +21,8 @@ body {
     background: var(--primary-color);
     font-size: larger;
     color: var(--secondary-color);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+    
 }
 
 logo {
@@ -69,21 +71,39 @@ logo {
 
 .centerbtn {
     display: flex;
-    justify-content: center; S
+    justify-content: center;
 }
 
 .footer {
     display: flex;
     align-items: center;
     padding: 10px;
-    /* background: var(--primary-color); */
-    text-decoration: none;
     color: var(--secondary-color);
     position: absolute;
     bottom: 0; 
 }
 
-<<<<<<< Updated upstream
-=======
+.wrapper {
+    max-width: ;
+    background: var(--secondary-color);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+    order-radius: 5px;
+    padding: 1rem;
+    margin: 1rem auto;
+    
 
->>>>>>> Stashed changes
+}
+
+.nav-bar2 {
+    display: flex;
+    
+}
+
+.child {
+    padding: 0px 20px;
+    flex-grow: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+}
