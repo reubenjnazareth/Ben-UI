@@ -150,4 +150,8 @@ iframe {
     margin-left: 30px;
 }
 
+hr {
+    border-color: var(--secondary-color);
+    margin: 10px 30px 10px 30px ;
+}
 
