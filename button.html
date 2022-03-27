@@ -7,6 +7,7 @@
     <title>Button</title>
     <link href="/styles.css" rel="stylesheet" />
     <link href="components/button.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="header">
@@ -39,20 +40,56 @@
 </div>
 
 <div class="component-title">BUTTON</div>
-<div class="component-intro">A badge is used to display information such as online or ofline or busy. Badges are also used to display information to user with a quick glace by showing a number on the icon. For example, a badge on the inbox icon could depict the count of the number of unread messages.</div>
+<div class="component-intro">Buttons are used to perform actions (log-in, log-out, submit, cancel, delete, etc.), when the user wants to interact with websites.</div>
 
 
-<div class="sub-title">Button types</div>
-<div class="badge-nav">
+<div class="sub-title">Primary Button</div>
+<div class="btn-nav">
+    <button class="btn-primary button">Click me!</button>
+</div>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2843%2C45%2C66%2C1%29&t=seti&wt=none&l=auto&width=800&ds=true&dsyoff=12px&dsblur=84px&wc=true&wa=false&pv=25px&ph=25px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary%2520button%2522%253EClick%2520me%21%253C%252Fbutton%253E"
+  style="width: 800px; height: 143px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 
-    
+<hr class="line">
 
-      
+<div class="sub-title">Link Button</div>
+<div class="component-intro">A button which leads to another link.</div>
+<div class="btn-nav">
+    <button class="button-link"><a href="#">Click me!</a></button>
+</div>
+
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2843%2C45%2C66%2C1%29&t=seti&wt=none&l=auto&width=800&ds=true&dsyoff=12px&dsblur=84px&wc=true&wa=false&pv=25px&ph=25px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EClick%2520me%21%253C%252Fa%253E%253C%252Fbutton%253E"
+  style="width: 800px; height: 143px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<hr class="line">
+
+<div class="sub-title">Icon Button</div>
+<div class="btn-nav">
+    <button class="btn-icon"><i class="fa fa-trash"></i></button>
+</div>
+
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2843%2C45%2C66%2C1%29&t=seti&wt=none&l=auto&width=800&ds=true&dsyoff=12px&dsblur=84px&wc=true&wa=false&pv=25px&ph=25px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+  style="width: 800px; height: 143px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+<hr class="line">
+
+<div class="sub-title">Floating Action Button</div>
+<div class="btn-nav">
+    <button class="btn-float"><i class="fa fa-plus"></i></button>
 </div>
 
 
 
-<hr class="line">
 
     
 </body>

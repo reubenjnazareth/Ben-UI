@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #2b2d42;
+    --secondary-color: #edf2f4;
+    --tertiary-color: #8d99ae;
+}
+
+.button {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.8rem 0.8rem;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.button-link {
+
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.8rem 0.8rem;
+    text-decoration: none; 
+}
+
+
+.btn-icon {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    width: 5rem;
+    border-radius: 0.4rem;
+}
+
+.btn-float {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    /* padding: 1rem; */
+    cursor: pointer;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+
