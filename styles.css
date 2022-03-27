@@ -22,12 +22,13 @@ body {
     font-size: larger;
     color: var(--secondary-color);
     box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
 }
 
 .logo {
-    font-size: 2.188rem;
+    font-size: 2rem;
     font-weight: bold;
-    margin-left: 1.563rem;
+    margin-left: 1rem;
 }
 
 .header-nav {
@@ -49,7 +50,7 @@ body {
 
 .introduction {
     text-align: center;
-    padding: 1.563rem;
+    padding: 1.5rem;
     font-size: large;
     align-items: center;
     /* display: flex;
@@ -57,8 +58,8 @@ body {
     align-items: center; */
 }
 .introduction-img {
-    width="400" 
-    height="200"
+    width: 32rem;
+    height: 16rem;
 }
 
 .primary-btn {
@@ -66,8 +67,8 @@ body {
     border: none;
     color: var(--tertiary-color);
     font-size: 1rem;
-    border-radius: 0.313rem;
-    padding: 0.625rem 0.625rem;
+    border-radius: 0.4rem;
+    padding: 0.8rem 0.8rem;
     text-decoration: none;
     display: flex;
     justify-content: center; 
@@ -81,7 +82,7 @@ body {
 .footer {
     display: flex;
     align-items: center;
-    padding: 0.625rem;
+    padding: 0.7rem;
     color: var(--secondary-color);
     position: absolute;
     bottom: 0; 
@@ -90,7 +91,7 @@ body {
 .wrapper {
     background: var(--secondary-color);
     box-shadow: 0 0.25rem 0.25re, 0 rgba(0, 0, 0, 0.05);
-    order-radius: 5px;
+    border-radius: 0.5rem;
     padding: 1rem;
     margin: 1rem auto;
 }
@@ -110,25 +111,25 @@ body {
 
 
 .component-title {
-    font-size: 1.563rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: var(--primary-color);
     /* padding-left: 30px; */
-    margin-left: 1.875rem;
-    padding-bottom: 0.625rem;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
 }
 
 .component-intro {
     color: var(--primary-color);
     /* padding-left: 30px; */
     padding-bottom: 0.652rem;
-    margin-left: 1.875rem;
+    margin-left: 2rem;
 }
 
 .sub-title {
     color: var(--primary-color);
     /* padding-left: 30px; */
-    margin-left: 1.875rem;
+    margin-left: 2rem;
     padding-bottom: 0.625rem;
     font-size: 1.25rem;
     font-weight: bold;
@@ -136,20 +137,22 @@ body {
 
 .avatar-nav {
     /* padding-left: 30px; */
-    margin-left: 1.875rem;
+    margin-left: 2rem;
     margin-bottom: 1.25rem;
 }
 
 .avatar {
-    margin-right: 0.938rem;
+    margin-right: 1em;
 }
 
 iframe {
-    margin-left: 1.875rem;
+    margin-left: 2rem;
+    /* border-radius: 0.5rem; */
+    
 }
 
 hr {
     border-color: var(--secondary-color);
-    margin: 0.625rem 1.875rem;
+    margin: 1rem 2rem;
 }
 
