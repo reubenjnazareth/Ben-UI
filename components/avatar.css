@@ -1,0 +1,42 @@
+.avatar-circle-large {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+.avatar-circle-medium {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.avatar-circle-small {
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
+  .avatar-sq-large {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    
+  }
+
+.avatar-sq-medium {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.avatar-sq-small {
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    
+  }
+

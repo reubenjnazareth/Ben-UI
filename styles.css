@@ -9,23 +9,26 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--tertiary-color);
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 8px;
+    padding: 0 0.5rem;
     background: var(--primary-color);
     font-size: larger;
-    color: white;
+    color: var(--secondary-color);
+    box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
 }
 
-logo {
-    font-size: 20px;
+.logo {
+    font-size: 2rem;
     font-weight: bold;
+    margin-left: 1rem;
 }
 
 .header-nav {
@@ -40,30 +43,32 @@ logo {
 }
 
 .header-nav a {
-    padding: 8px;
+    padding: 0.5rem;
     text-decoration: none;
     color: var(--secondary-color);
 }
 
 .introduction {
     text-align: center;
-    padding: 25px;
+    padding: 1.5rem;
     font-size: large;
     align-items: center;
     /* display: flex;
     justify-content: center; */
     align-items: center; */
 }
+.introduction-img {
+    width: 32rem;
+    height: 16rem;
+}
 
 .primary-btn {
     background-color: var(--primary-color);
     border: none;
     color: var(--tertiary-color);
-    /* width: 150px;
-    height: 40px; */
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.8rem 0.8rem;
     text-decoration: none;
     display: flex;
     justify-content: center; 
@@ -71,25 +76,83 @@ logo {
 
 .centerbtn {
     display: flex;
-    justify-content: center; 
-    /* background-color: var(--primary-color);
-    border: none;
-    color: var(--tertiary-color);
-    width: 150px;
-    height: 40px;
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 10px;  */
+    justify-content: center;
 }
 
 .footer {
     display: flex;
     align-items: center;
-    padding: 10px;
-    /* background: var(--primary-color); */
-    text-decoration: none;
+    padding: 0.7rem;
     color: var(--secondary-color);
     position: absolute;
     bottom: 0; 
+}
+
+.wrapper {
+    background: var(--secondary-color);
+    box-shadow: 0 0.25rem 0.25re, 0 rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.nav-bar2 {
+    display: flex;
+}
+
+.child {
+    padding: 0rem 1.25rem;
+    flex-grow: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
+.component-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    /* padding-left: 30px; */
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.component-intro {
+    color: var(--primary-color);
+    /* padding-left: 30px; */
+    padding-bottom: 0.652rem;
+    margin-left: 2rem;
+}
+
+.sub-title {
+    color: var(--primary-color);
+    /* padding-left: 30px; */
+    margin-left: 2rem;
+    padding-bottom: 0.625rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.avatar-nav {
+    /* padding-left: 30px; */
+    margin-left: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.avatar {
+    margin-right: 1em;
+}
+
+iframe {
+    margin-left: 2rem;
+    /* border-radius: 0.5rem; */
+    
+}
+
+hr {
+    border-color: var(--secondary-color);
+    margin: 1rem 2rem;
 }
 
