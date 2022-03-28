@@ -192,4 +192,11 @@ hr {
     margin-left: 2rem;
     margin-bottom: 1.25rem;
     margin-top: 1rem;
+}
+
+.img-responsive, .img-round {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+}
 
