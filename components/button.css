@@ -50,4 +50,9 @@
     border-radius: 2rem;
 }
 
+.btn-float:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
 
