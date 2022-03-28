@@ -167,4 +167,8 @@ hr {
     margin-left: 2rem;
     margin-bottom: 1.25rem;
     margin-top: 0.5rem;
+    border: #2b2d42 solid;
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 0.25rem;
 }
