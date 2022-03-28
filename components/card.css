@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #2b2d42;
+    --secondary-color: #edf2f4;
+    --tertiary-color: #8d99ae;
+}
+.horizontal-img {
+    width: 20rem;
+    height: 10rem;
+    padding: 1rem;
+}
+.card-horizontal {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 50rem;
+    background-color: var(--secondary-color);
+    display: flex;
+  }
+  
+
+
+  /* for vertical card */
+  .vertical-img {
+    width: 15rem;
+    height: 15rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .card-vertical {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 17rem;
+    background-color: var(--secondary-color);
+  }
+
+  .card-v-container {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .card-badge {
+      position:absolute;
+      right: 57rem;
+      top: 95rem;
+      background-color: #8d99ae;
+      padding: 0.5rem;
+      
+  }
+
+  .dismiss-icon {
+    font-size: 2rem;
+    position: relative;
+    left: 14rem;
+    bottom: 22rem;
+}
+
+.dismiss-icon:hover {
+    color: #edf2f4;
+}
+
+
+
+
+.overlay-text {
+    position: absolute;
+    opacity: 0;
+    visibility: none;
+    
+  }
+
+  .card-overlay:hover .overlay-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+    width: 50rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    opacity: 1;
+    transition: .5s;
+
+}
