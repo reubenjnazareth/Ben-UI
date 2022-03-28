@@ -156,3 +156,7 @@ hr {
     margin: 1rem 2rem;
 }
 
+.card-horizontal {
+    margin-left: 2rem;
+    margin-bottom: 1.25rem;
+}
