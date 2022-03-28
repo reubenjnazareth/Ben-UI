@@ -159,6 +159,9 @@ hr {
 }
 
 
+.btn-nav, .rating {
+=======
+
 
 .notification {
     margin-left: 2rem;
@@ -189,6 +192,7 @@ hr {
 
 
 .btn-nav {
+
     margin-left: 2rem;
     margin-bottom: 1.25rem;
     margin-top: 1rem;
@@ -203,7 +207,7 @@ hr {
     padding: 1rem;
     width: fit-content;
     border-radius: 0.25rem;
-=======
+
 .img-responsive, .img-round {
     margin-left: 2rem;
     margin-top: 1rem;
