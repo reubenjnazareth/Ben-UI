@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #2b2d42;
+    --secondary-color: #edf2f4;
+    --tertiary-color: #8d99ae;
+}
+
+.input-textbox {
+    width: auto;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
