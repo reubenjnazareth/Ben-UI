@@ -49,4 +49,11 @@
     padding-bottom: 0.5rem;
   }
 
-  
+  .card-badge {
+      position:absolute;
+      right: 57rem;
+      top: 95rem;
+      background-color: #8d99ae;
+      padding: 0.5rem;
+      /* border-radius: 0.25rem; */
+  }
