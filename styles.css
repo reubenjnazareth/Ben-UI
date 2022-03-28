@@ -122,8 +122,9 @@ body {
 .component-intro {
     color: var(--primary-color);
     /* padding-left: 30px; */
-    padding-bottom: 0.652rem;
+    padding-bottom: 0.625rem;
     margin-left: 2rem;
+    
 }
 
 .sub-title {
@@ -135,10 +136,11 @@ body {
     font-weight: bold;
 }
 
-.avatar-nav {
+.avatar-nav, .alert-nav {
     /* padding-left: 30px; */
     margin-left: 2rem;
     margin-bottom: 1.25rem;
+    color: var(--primary-color);
 }
 
 .avatar {
@@ -156,6 +158,36 @@ hr {
     margin: 1rem 2rem;
 }
 
+
+
+.notification {
+    margin-left: 2rem;
+}
+
+.badge-nav {
+    margin: 1rem 0;
+}
+
+.icon-image {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+}
+
+.alert-simple {
+    margin-bottom: 0.5rem;;
+
+.card-horizontal {
+    margin-left: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.card-vertical {
+    margin-left: 2rem;
+    margin-bottom: 1.25rem;
+
+
+
 .btn-nav {
     margin-left: 2rem;
     margin-bottom: 1.25rem;
@@ -167,3 +199,4 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1.25rem;
 }
+
