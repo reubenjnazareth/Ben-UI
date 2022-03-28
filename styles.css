@@ -159,6 +159,21 @@ hr {
 }
 
 
+
+.notification {
+    margin-left: 2rem;
+}
+
+.badge-nav {
+    margin: 1rem 0;
+}
+
+.icon-image {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+}
+
 .alert-simple {
     margin-bottom: 0.5rem;;
 
@@ -172,12 +187,12 @@ hr {
     margin-bottom: 1.25rem;
 
 
+
 .btn-nav {
     margin-left: 2rem;
     margin-bottom: 1.25rem;
     margin-top: 1rem;
 }
-
 
 
 .input-textbox-container {
@@ -188,5 +203,10 @@ hr {
     padding: 1rem;
     width: fit-content;
     border-radius: 0.25rem;
-}
+=======
+.img-responsive, .img-round {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+
 

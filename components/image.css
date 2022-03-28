@@ -1,0 +1,11 @@
+
+.responsive {
+    width: 100%;
+    max-width: 35rem;
+    height: auto;
+}
+
+.round {
+    width: 20rem;
+    border-radius: 20rem;
+}

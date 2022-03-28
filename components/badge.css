@@ -1,0 +1,43 @@
+
+.notification {
+    position: relative;
+    display: inline-block;
+  }
+  
+ .badge-icon {
+    position: absolute;
+    top: -0.6rem;
+    right: -0.6rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+
+  .icon {
+      font-size: 3rem;
+  }
+
+  /* Badge on avatar */
+
+  .badge-avatar {
+    position: absolute;
+    top: -0.4rem;
+    right: -0.2rem;
+    padding: 0.6rem 0.6rem;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+
