@@ -156,7 +156,7 @@ hr {
     margin: 1rem 2rem;
 }
 
-.btn-nav {
+.btn-nav, .rating {
     margin-left: 2rem;
     margin-bottom: 1.25rem;
     margin-top: 1rem;
