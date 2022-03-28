@@ -25,9 +25,28 @@
   /* Add some padding inside the card container */
   .card-container {
     position: absolute;
-    right: 42rem;
+    right: 41rem;
     top: 16rem;
-    
+  }
+
+
+  /* for vertical card */
+  .vertical-img {
+    width: 15rem;
+    height: 15rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .card-vertical {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 17rem;
+    background-color: var(--secondary-color);
+  }
+
+  .card-v-container {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
   }
 
   
